@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>chap6/mondai4</title>
+</head>
+<body>
+	<form action ="mondai5">
+		<label>お名前：<input type="text" name="name"></label><br>
+		<label>ご年齢：<input type="number" name="age"></label><br>
+		<p>住んでいる都道府県を選択してください</p>
+		<select name="prefecture">
+		<option value="東京都">東京</option>
+		<option value="神奈川県">神奈川</option>
+		<option value="千葉県">千葉</option>
+		<option value="埼玉県">埼玉</option>
+		<option value="茨城県">茨城</option>
+		<option value="栃木県">栃木</option>
+		<option value="群馬県">群馬</option>
+		</select>
+		<p>通学に使う交通機関を選んでください</p>
+		<label><input type="checkbox" name="transport" value="電車" checked>電車</label><br>
+		<label><input type="checkbox" name="transport" value="バス">バス</label><br>
+		<label><input type="checkbox" name="transport" value="モノレール">モノレール</label><br>
+		<label><input type="checkbox" name="transport" value="徒歩">徒歩</label>
+		<p>何かお問い合わせしたいことがあれば、お書きください。</p>
+		<textarea name="anxiety" cols="60" rows="5"></textarea>
+		<input type="submit" value="送信">
+	</form>
+</body>
+</html>
